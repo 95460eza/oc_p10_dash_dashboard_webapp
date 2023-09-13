@@ -12,7 +12,8 @@ import os
 # external_stylesheets = [dbc.themes.CERULEAN]
 # OR
 external_stylesheets = [dmc.theme.DEFAULT_COLORS]
-app6 = Dash(__name__, external_stylesheets=external_stylesheets)
+# app6 = Dash(__name__, external_stylesheets=external_stylesheets)
+app6 = Dash(__name__)
 
 
 
@@ -21,7 +22,7 @@ app6 = Dash(__name__, external_stylesheets=external_stylesheets)
 app6.layout = html.Div([
 
                         # The html.Div() (note the ABSENCE of []) DASH COMPONENT with children= parameter adds TEXT to the webpage
-                        html.Div(children='Welcome DATA Apprentice'),
+                        html.Div(children='Welcome DATA Apprentice')
 
                         ])
 
