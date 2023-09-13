@@ -20,9 +20,10 @@ app6 = Dash(__name__, external_stylesheets=external_stylesheets)
 # Define the Web App Layout
 app6.layout = html.Div([
 
-    # The html.Div() (note the ABSENCE of []) DASH COMPONENT with children= parameter adds TEXT to the webpage
-    html.Div(children='Welcome DATA Apprentice'),
-    ])
+                        # The html.Div() (note the ABSENCE of []) DASH COMPONENT with children= parameter adds TEXT to the webpage
+                        html.Div(children='Welcome DATA Apprentice'),
+
+                        ])
 
 #if __name__ == '__main__':
 #    app6.run(debug=True)
