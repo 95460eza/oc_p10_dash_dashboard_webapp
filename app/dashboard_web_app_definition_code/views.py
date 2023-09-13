@@ -16,7 +16,7 @@ app6 = Dash(__name__, external_stylesheets=external_stylesheets)
 # Read in Data
 #df = pd.read_csv('./dash_texts_data/df_airline_tweets.csv')[ ['airline', 'airline_sentiment_confidence', 'negativereason_confidence', 'retweet_count']]
 
-df = pd.read_csv("dashboard_web_app_definition_code/dash_texts_data/df_airline_tweets.csv")[ ['airline', 'airline_sentiment_confidence', 'negativereason_confidence', 'retweet_count']]
+df = pd.read_csv("dash_texts_data/df_airline_tweets.csv")[ ['airline', 'airline_sentiment_confidence', 'negativereason_confidence', 'retweet_count']]
 
 
 # CALLBACK Enables the use of control components for building the interaction
