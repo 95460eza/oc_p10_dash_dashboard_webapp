@@ -3,4 +3,5 @@
 # (or gunicorn --bind=0.0.0.0 --timeout 600 --chdir website hello:myapp if the Flask app definition code file is in #a subfolder, named here website)
 
 #web: gunicorn --bind=0.0.0.0:8000 --timeout 600 --chdir app run:app6
-gunicorn --bind=0.0.0.0 --timeout 600 --chdir app run:app6
+
+gunicorn --bind=0.0.0.0:8000 --timeout 600 --chdir app run:app6
